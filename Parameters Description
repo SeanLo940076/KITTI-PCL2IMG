@@ -1,0 +1,61 @@
+# Parameters:# Parameters:
+# 1. image_width (int): The width of the output image in pixels.
+#    - Determines the horizontal resolution of the generated 2D image.
+#    - Adjust based on the desired output size.
+#    - Example: image_width = 2084
+
+# 2. image_height (int): The height of the output image in pixels.
+#    - Calculated based on the aspect ratio derived from the vertical FOV.
+#    - Maintains the correct aspect ratio based on the sensor's field of view.
+#    - Example: image_height = int(image_width * (vertical_fov / horizontal_fov))
+
+# 3. vertical_fov (float): The vertical field of view of the sensor in degrees.
+#    - Affects the scaling and mapping of the point cloud data to the 2D image.
+#    - Default value for Velodyne HDL-64E is 26.8 degrees.
+#    - Example: vertical_fov = 26.8
+
+# 4. max_dist (float): The maximum distance value for normalizing point cloud data.
+#    - Controls the range of distances mapped to colors in the HSV color space.
+#    - Larger values map further distances to red, smaller values map closer distances to green.
+#    - Example: max_dist = 35.0
+
+# 5. input_folder (str): The directory path containing the input point cloud (.bin) files.
+#    - Specifies where the raw point cloud data files are located.
+#    - Adjust to match your data storage location.
+#    - Example: input_folder = '/path/to/your/input/folder'
+
+# 6. output_folder (str): The directory path where the output images will be saved.
+#    - Specifies where the generated 2D images will be stored.
+#    - Ensure the directory exists or the program has permission to create it.
+#    - Example: output_folder = '/path/to/your/output/folder'
+
+# 1. image_width (int): The width of the output image in pixels.
+#    - Determines the horizontal resolution of the generated 2D image.
+#    - Adjust based on the desired output size.
+#    - Example: image_width = 2084
+
+# 2. image_height (int): The height of the output image in pixels.
+#    - Calculated based on the aspect ratio derived from the vertical FOV.
+#    - Maintains the correct aspect ratio based on the sensor's field of view.
+#    - Example: image_height = int(image_width * (vertical_fov / horizontal_fov))
+
+# 3. vertical_fov (float): The vertical field of view of the sensor in degrees.
+#    - Affects the scaling and mapping of the point cloud data to the 2D image.
+#    - Default value for Velodyne HDL-64E is 26.8 degrees.
+#    - Example: vertical_fov = 26.8
+
+# 4. max_dist (float): The maximum distance value for normalizing point cloud data.
+#    - Controls the range of distances mapped to colors in the HSV color space.
+#    - Larger values map further distances to red, smaller values map closer distances to green.
+#    - Example: max_dist = 35.0
+
+# 5. input_folder (str): The directory path containing the input point cloud (.bin) files.
+#    - Specifies where the raw point cloud data files are located.
+#    - Adjust to match your data storage location.
+#    - Example: input_folder = '/path/to/your/input/folder'
+
+# 6. output_folder (str): The directory path where the output images will be saved.
+#    - Specifies where the generated 2D images will be stored.
+#    - Ensure the directory exists or the program has permission to create it.
+#    - Example: output_folder = '/path/to/your/output/folder'
+
