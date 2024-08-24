@@ -1,4 +1,4 @@
-# KITTI-PCL2IMG
+# KITTI-Point-Cloud2Image
 
 [中文版本](README_zh.md)
 
