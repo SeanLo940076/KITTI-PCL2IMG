@@ -4,6 +4,8 @@
 
 A Python tool for converting KITTI dataset point cloud data to 2D images using cylindrical projection, visualizing distance with HSV color mapping.
 
+![Demo of Range Map Video](range_map_video.gif)
+
 ## Overview
 
 This project aims to convert point cloud data from the KITTI dataset into 2D images using spherical coordinates projection. The process employs cylindrical projection to transform the point cloud data into a 2D image while visualizing the distance between the points and the LiDAR sensor using HSV color space.

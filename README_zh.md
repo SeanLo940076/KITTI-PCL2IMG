@@ -4,6 +4,8 @@
 
  A Python tool for converting KITTI dataset point cloud data to 2D images using cylindrical projection, visualizing distance with HSV color mapping.
 
+![Demo of Range Map Video](range_map_video.gif)
+
 ## 專案概述
 本專案旨在將 KITTI 資料集中的點雲資料透過球座標投影轉換為二維影像。該轉換過程使用了柱面投影方法，將點雲數據轉換為二維平面圖像，並通過 HSV 色彩空間顯示點與雷達的距離。
 
